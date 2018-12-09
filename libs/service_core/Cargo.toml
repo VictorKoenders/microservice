@@ -1,0 +1,8 @@
+[package]
+name = "service_core"
+version = "0.1.0"
+authors = ["Victor Koenders <victor.koenders@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+service_core_derive = { path = "../service_core_derive" }

@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "index",
+    "libs/service_core",
+    "libs/service_core_derive"
+]

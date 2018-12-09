@@ -1,0 +1,20 @@
+[package]
+name = "service_core_derive"
+version = "0.1.0"
+authors = ["Victor Koenders <victor.koenders@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+reqwest = "0.9.5"
+quote = "0.6.10"
+serde_derive = "1.0.81"
+serde = "1.0.81"
+syn = "0.15.22"
+proc-macro2 = "0.4.24"
+
+[dependencies.semver]
+version = "0.9.0"
+features = ["serde"]
+
+[lib]
+proc-macro = true
